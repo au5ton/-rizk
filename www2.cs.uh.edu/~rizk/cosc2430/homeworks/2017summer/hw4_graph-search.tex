@@ -1,0 +1,64 @@
+\documentclass[times,11pt,verbatim,js-singlespace]{article}  % 10pt default?
+\usepackage[left=1in,right=1in,top=1in,bottom=0.8in,footskip=.25in]{geometry}
+\usepackage{algorithm2e}
+\usepackage{graphicx}
+\usepackage{color}
+\title{COSC2430: Programming and Data Structures\\
+Homework 4: Shortest Path in Graph
+}
+
+\date{}
+
+\begin{document}
+\special{papersize=8.5in,11in} 
+
+\pagestyle{plain}
+\let\thepage\relax  % no page number
+
+\maketitle
+
+\section{Introduction}
+You will create a C++ program to find the shortest path given a source vertex and destination vertex. 
+\section{Input and Output}
+$G = (V, E)$ is a directed graph, where $n$ vertices and $m$ edges. $G$ can be represented as an adjacency matrix $E, n\times n$, where $n <= 10000$. Please see Figure 1 as an example. You will read a sparse matrix $E$ from an input file; There will be ONE matrix entry per line in the input file and each line will have a triplet of numbers $i,j,length$ where $1 \le i,j \le n$ indicate the entry and $length$ denotes the length for a directed edge pointing from vertex $i$ to $j$. Given a source vertex $1 \le s \le n$ and a destination vertex $1 \le d \le n$, your program should display the shortest path between $s$ and $d$ (assume $d$ is reachable from $s$). 
+\begin{figure}[htbp]
+\centering\includegraphics[width=.6\textwidth]{graph1.png}
+\label{F:GraphAndE}
+\caption{The adjacency matrix $E$  (sparse representation) for a sample graph $G$}
+\end{figure}
+
+Input example for Figure 1.
+\begin{verbatim}
+2 1 1.2
+2 3 1.9
+3 5 1.5
+4 5 1.2
+5 6 7.8
+5 7 3.5
+5 8 2.2
+6 4 1.1
+7 6 2.4
+9 5 1.8
+10 9 1.9
+11 2 1.4
+\end{verbatim}
+
+Output example (source=2, destination=6)
+\begin{verbatim}
+2 3 5 7 6
+\end{verbatim}
+
+\section{Program and input specification}
+
+The main program should be called "shortestpath".
+Call syntax:
+\begin{verbatim}
+shortestpath  E=<input_file> source=<num> destination=<num>
+\end{verbatim}
+
+\section{Requirements}
+\begin{itemize}
+\item You program should get the result within 10 seconds.
+\end{itemize}
+\end{document}
+

@@ -1,0 +1,12 @@
+Name                    username
+Tang, Kevin                         cosc957
+Martinez, Adam               cosc958
+Okoro, Uzondu                 cosc959
+Alvarado, Luis                    cosc960
+Waxler, Conner                 cosc961
+Richardson, Robert         cosc962
+Tian, Yilei                             cosc963
+Nkanga, Devine                cosc964
+Hajovsky, Daniel               cosc965
+Akabogu, Tobechukwu cosc966
+Pratt, Joshua                      cosc967

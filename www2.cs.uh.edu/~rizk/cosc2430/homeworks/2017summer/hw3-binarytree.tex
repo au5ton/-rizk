@@ -1,0 +1,70 @@
+
+%\documentclass[times,11pt,verbatim,js-singlespace, xcolor, graphicx,wrapfig]{article}  % 10pt default?
+%\usepackage[dvipsnames]{}
+
+\documentclass[times,11pt,verbatim,js-singlespace]{article}  % 10pt default?
+\usepackage[left=1in,right=1in,top=1in,bottom=0.8in,footskip=.25in]{geometry}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{color}
+\title{COSC2430: Programing and Data Structures\\
+Binary Tree
+}
+
+%\author{Instructor: Carlos Ordonez}
+\date{}
+
+\begin{document}
+
+\pagestyle{plain}
+\let\thepage\relax  % no page number
+
+\maketitle
+
+\section{Introduction}
+You will create a C++ program that can determine whether a binary tree is a heap or not given a pre-order and in-order traversals of the tree.
+\section{Input and Output}
+The input are two regular text files, one contains the pre-order traversal of a tree and another contains the in-order. In the file, positive integers (less than 1000 integers) are separated with one or more space characters. \textcolor{red}{You cannot assume the tree is balanced. You cannot assume the binary tree is a binary search tree. But you can assume no duplicated numbers are in the files.} The program should display the post-order to the screen. 
+
+%\begin{figure}[htbp]
+%  \centering
+%  \includegraphics[width=.45\textwidth]{tree.png}
+%  \caption{Tree}
+%\end{figure}
+
+\begin{wrapfigure}{r}{0.4\textwidth}
+\hspace{-0.2in}
+    \includegraphics[width=0.4\textwidth]{tree}
+\end{wrapfigure}
+Input example: preorder1.txt
+\begin{verbatim}
+5   2 1 4 3 7 6 8
+\end{verbatim}
+Input example: inorder1.txt
+\begin{verbatim}
+1 2 3 4 5 6  7 8
+\end{verbatim}
+output example:
+\begin{verbatim}
+no
+\end{verbatim}
+
+\section{Program input specification}
+The main program should be called "heap". The output should be written to the console (e.g.
+printf or cout), but the TAs will redirect it to create some output file.
+
+Call syntax at the OS prompt (notice double quotes):
+\begin{verbatim}
+heap preorder=<filename> inorder=<filename>
+\end{verbatim}
+
+Example of program call:
+\begin{verbatim}
+./heap "preorder=preorder1.txt inorder=inorder1.txt
+\end{verbatim}
+\section{Requirements}
+\begin{itemize}
+\item Your program should get the result within 2 seconds.
+\end{itemize}
+\end{document}
+

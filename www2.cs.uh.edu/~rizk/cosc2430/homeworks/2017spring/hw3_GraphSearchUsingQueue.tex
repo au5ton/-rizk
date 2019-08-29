@@ -1,0 +1,67 @@
+\documentclass[times,11pt,verbatim,js-singlespace]{article}  % 10pt default?
+\usepackage[left=1in,right=1in,top=1in,bottom=0.8in,footskip=.25in]{geometry}
+\usepackage{algorithm2e}
+\usepackage{graphicx}
+\usepackage{color}
+\title{COSC2430: Programming and Data Structures\\
+Homework 4: Graph Algorithm using Queue
+}
+
+\date{}
+
+\begin{document}
+\special{papersize=8.5in,11in} 
+
+\pagestyle{plain}
+\let\thepage\relax  % no page number
+
+\maketitle
+
+\section{Introduction}
+Reachability from a source vertex $s$ is the problem to find the set of vertices $S$ such that $v \in S$ if exists a path from $s$ to $v$. You will create a C++ program to find reachable vertices using \textcolor{red}{Breath First Search (BFS) algorithm}. 
+\section{Input and Output}
+$G = (V, E)$ is a directed graph, where $n$ vertices and $m$ edges. $G$ can be represented as an adjacency matrix $E, n\times n$, where $n <= 100$. Please see Figure 1 as an example. You will read a sparse matrix $E$ from an input file; There will be ONE matrix entry per line in the input file and each line will have a triplet of integer numbers $i,j,v$ where $1 \le i,j \le n$ indicate the entry and $v\neq 0$ indicates a directed edge pointing from vertex $i$ to $j$. Given a source vertex $1 \le s \le n$, your program should display all reachable vertices \textcolor{red}{(excluding the source vertex $s$) in ascending order}. 
+\begin{figure}[htbp]
+\centering\includegraphics[width=.6\textwidth]{graph.png}
+\label{F:GraphAndE}
+\caption{The adjacency matrix $E$  (sparse representation) for a sample graph $G$}
+\end{figure}
+
+Input example for Figure 1 (the last line indicates the matrix dimension $n = 11$).
+\begin{verbatim}
+2 1 1
+2 3 1
+3 5 1
+4 5 1
+5 6 1
+5 7 1
+5 8 1
+6 4 1
+7 6 1
+9 5 1
+10 9 1
+11 2 1
+11 11 0
+\end{verbatim}
+
+Output example (source=2)
+
+\begin{verbatim}
+1 3 4 5 6 7 8
+\end{verbatim}
+
+\section{Program and input specification}
+
+The main program should be called "reachability".
+Call syntax:
+\begin{verbatim}
+reachability "E=<input_file>;sourse=<num>".
+\end{verbatim}
+
+\section{Requirements}
+\begin{itemize}
+\item \textcolor{red}{std::queue or std::deque} is not allowed to used. You should implement your own queue data structure.
+\item You program should get the result within 10 seconds.
+\end{itemize}
+\end{document}
+

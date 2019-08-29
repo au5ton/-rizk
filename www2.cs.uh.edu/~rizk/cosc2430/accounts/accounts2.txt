@@ -1,0 +1,51 @@
+Name	Username
+Abarca,Raymundo Andres	cosc783
+Acuna,Bryan	cosc784
+Adair,Adam Christopher	cosc785
+Ahsan,Md Nabil		cosc786
+Awati,Mrunal Anil	cosc787
+Baugher,Audrey		cosc788
+Bermudez,Alexander A	cosc789
+Brzeski,Konrad Sebastien	cosc790
+Chauhan,Bijal  cosc791
+Chavira,Salma L	cosc792
+Crawford,Christopher	cosc793
+DeWalt,Angelique	cosc794
+Douge,Rossini Pierre	cosc795
+Driver,Tyler R		cosc796
+Faridi,Houtan		cosc797
+Fatima,Rabab		cosc798
+Garde,Danielle Cereno	cosc799
+Graney,Garrett cosc800
+Hayes,Harrison Evan	cosc801
+Hayes,Jordan Matthew	cosc802
+Heres,Alessandro	cosc803
+Hinh,Andy W		cosc804
+Jafry,Danish		cosc805
+Kott,Matthew Alan	cosc806
+Le,Khang H   cosc807
+Mai,Tyler    cosc808
+Maknojia,Snehil	cosc809
+Mendoza,Mario Alberto	cosc810
+Moncrief,Steven Allan	cosc811
+Moran,Gian Pierre	cosc812
+Nguyen,Duy J		cosc813
+Nguyen,Mike N		cosc814
+Parmer,John Kevin	cosc815
+Patel,Samarth		cosc816
+Rafat,Ayesha		cosc817
+Rios,Roel		cosc818
+Salazar,Juan Carlos	cosc819
+Salmeron,Sandy Liliana	cosc820
+Shah,Parth Sunil	cosc821
+Soto,Johnny		cosc822
+Tabios,Irec David Limas	cosc823
+Tran,Hy Tuan	  cosc824
+Tran,Johnson	  cosc825
+Truelove,Matthew  cosc826
+Tu,Zengye	  cosc827
+Wang,Minh Hong	  cosc828
+Ward,Adam Michael cosc829
+Williams,Adam Jonathan	cosc830
+Zhao,Chong    cosc831
+Zhou,Brian W  cosc832

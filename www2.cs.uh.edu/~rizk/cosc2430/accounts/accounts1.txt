@@ -1,0 +1,121 @@
+Name	Username
+Abbas,Rhiana A	cosc833
+Abed-Stephen,Arin	cosc834
+Agostinho,Jessica Patricia	cosc835
+Ajodha,Rajiv	  cosc836
+Alonso-Daubney,Christian Jacob	cosc837
+Alvarez,Anthony		 cosc838
+Aptekar,Gabriel Steven	 cosc839
+Ariza,Nicolas R	cosc840
+Banks,Jw      cosc841
+Barnett,Aaron Michael	cosc842
+Basharat,Omar cosc843
+Bayu,Amanuel G	cosc844
+Bi,Mike	     cosc845
+Briones,Celeste M	cosc846
+Broberg,Lars R	cosc847
+Brovig,Alexander J	cosc848
+Brumbaugh,Greg D cosc849
+Cai,Rong Jie   cosc850
+Camacho,Diego Ivan	cosc851
+Carranco,Larry C	cosc852
+Cashman,William N	cosc853
+Castillo,Celso	cosc854
+Charafeddine,Isabelle N	cosc855
+Chheav,Jeremy Brian   cosc856
+Cockrell,Jazmin	      cosc857
+Cruz,Archibald D      cosc858
+Diaz,Alexis Esau      cosc859
+Dinh,Lindsie Q	      cosc860
+Do,Richard D cosc861
+Dumas,Agustin Leandro	cosc862
+Egozi,Gal     cosc863
+Eniola,Kunle  cosc864
+Faust,Zachary T	cosc865
+Filice,Edward Matthew	cosc866
+Forrest,Allison S	cosc867
+Galvan,Justin Antonio	cosc868
+Haider,Nida   cosc869
+Haynes,Emerson L	cosc870
+Hermeston,Ryan W	cosc871
+Hinh,Khiem Ich cosc872
+Ho,Nghia   cosc873
+Ho,Nien-Tai	cosc874
+Hofmeister,Julia Marie	cosc875
+Howard,Brent Andrew	cosc876
+Huynh,Tommy Truong	cosc877
+Ipina,Jose A		cosc878
+Jiwani,Daniel M		cosc879
+Juarez,Benjamin		cosc880
+Khoja,Ali		cosc881
+Kuchakulla,Malavika Reddy	cosc882
+Le,Brandon	    cosc883
+Le,Kenny Khanh	    cosc884
+Lemos,Steven Frank  cosc885
+Libios,Jadelyn	    cosc886
+Lin,Benqiang	    cosc887
+Liu,Katherine E	    cosc888
+Loo,Jessica M cosc889
+Luong,Alex  cosc890
+Maknojia,Monish	cosc891
+Marepalli,Krishna H	cosc892
+Martin,Elizabeth Adele	cosc893
+Martinez,Daniel Schaffick	cosc894
+Mastriano,Ryan	cosc895
+Matute,Lisette	cosc896
+McRae,April Tija	cosc897
+Merchant,Hayyan		cosc898
+Mokolo,Howard Ebube	cosc899
+Momin,Safik   cosc900
+Momin,Shafi Salim	cosc901
+Moparty,David M		cosc902
+Moura-Smith,Quinn Alexander	cosc903
+Nasirova,Marjan	  cosc904
+Ngo,Nguyen Trung  cosc905
+Nguyen,Duc Trinh  cosc906
+Nguyen,Joseph	  cosc907
+Nguyen,Kelvin An  cosc908
+Nguyen,Kevin Khoi cosc909
+Nguyen,Nathan-Long Thanh	cosc910
+Nguyen,Phillip T   cosc911
+Nunnelly,Kevin Michael	cosc912
+Omitogun,Ijeriedumare Ibukunoluwa	cosc913
+Patel,Shreevam J      cosc914
+Patton,Samuel J	      cosc915
+Perez,Israel Aroldo   cosc916
+Portocarrero,Kevin Gabriel	cosc917
+Quinones,Claudia Alicia		cosc918
+Remmie,Tyler James		cosc919
+Reyes,Christian A		cosc920
+Richardson,James Kesley		cosc921
+Richardson,Layne Ashlee		cosc922
+Roberson,Shawn G cosc923
+Rubio,Steven Ray cosc924
+Ruiz Avila,Carlos Alberto	cosc925
+Saleh,Romaen	  cosc926
+Sammour,Ronnie Basem	cosc927
+Sanchez,Rafael cosc928
+Sen,Justin Berkant	cosc929
+Shapiro,Benjamin L	cosc930
+Sinha,Ketan	 cosc931
+Stewart,Arthur	 cosc932
+Sunesara,Fehrin	 cosc933
+Sunesara,Shaneej cosc934
+Teano,Lian Gaile cosc935
+Thompson,Gregory Dean	cosc936
+Tovar,Oscar A	 cosc937
+Tran,Michelle Q	 cosc938
+Truong,Duc H  cosc939
+Tsao,Ken   cosc940
+Van Wart,Andrew	cosc941
+Vaughan,Cody J	cosc942
+Vexsler,Veronica	cosc943
+Villarreal,David A	cosc944
+Virani,Samad K	 cosc945
+Wang,Joshua  cosc946
+Weber,Paul Joseph	cosc947
+Young,Daniel K		cosc948
+Yu,Jia Dong  cosc949
+Yu,Kevin     cosc950
+Zeng,Victor  cosc951
+Zuri,Bevan Oscar	cosc952

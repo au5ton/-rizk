@@ -1,0 +1,6 @@
+Name            Username
+Hassan Alghanim     cosc978
+Guewen Ndenga      cosc979
+Hieu Pham          cosc980
+
+The starting password for each account is your PSID followed by your capital last initial followed by your capital first initial.

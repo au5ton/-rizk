@@ -1,0 +1,11 @@
+Name           username
+Nader Elasmar    cosc968
+Rogelio Sanchez               cosc969
+Juan Gil                cosc970
+Absar Jahawala                 cosc971
+Chang Jin Lee     cosc972
+Harry Gantz        cosc973
+Justin Talictic      cosc974
+Lynwood Stevenson       cosc975
+Elissia Derasen Garcia     cosc976
+Syed-Mohammad Raza    cosc977

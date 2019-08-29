@@ -1,0 +1,184 @@
+
+\documentstyle[times,11pt,verbatim,js-singlespace]{article}  % 10pt default?
+
+\title{COSC2320: Data Structures\\
+Doubly Linked Lists and Infinite Precision Arithmetic
+}
+
+\author{Instructor: Carlos Ordonez}
+\date{}
+
+\begin{document}
+
+\pagestyle{plain}
+\let\thepage\relax  % no page number
+
+\maketitle
+
+\section{Introduction}
+
+You will create a C++ program that
+can evaluate arithmetic operators with integer numbers having any number of digits.
+These numbers are an alternative to fixed size integers or floating
+point numbers that always have a maximum number of accurate digits 
+(dependent on size of CPU register).
+
+\section{Input and Output}
+
+The input is a regular text file, where each line
+is terminated with an end-of-line character(s).
+Each line will contain an arithmetic operation
+between two numbers.
+The program should display the input expression adn the results, separated with =.
+
+Input example:
+\begin{verbatim}
+0*0
+0+1
+123456*2593
+2*2000000000000000
+2*3
+1+10
+10000000000000000+1
+12345667890123456789+8765432109876543210
+999999999999999999999+1
+\end{verbatim}
+
+Output example:
+\begin{verbatim}
+0*0=0
+0+1=1
+123456*2593=320121408
+2*2000000000000000=4000000000000000
+2*3=6
+1+10=11
+10000000000000000+1=10000000000000001
+1234567890123456789+8765432109876543210=9999999999999999999
+999999999999999999999+1=1000000000000000000000
+\end{verbatim}
+
+
+
+Advanced operators and functions example:
+\begin{verbatim}
+sqrt(16)=4
+sqrt(81)=9
+20/6=3,remainder=2
+1500/5=300
+sqrt(13489)=116.1421543
+1000000000000/2=500000000000
+\end{verbatim}
+
+
+
+\section{Program input and output specification}
+
+The main program should be called "infinitearithmetic".
+The output should be written to the console (e.g. printf or cout),
+but the TAs will redirect it to create some output file.
+
+Call syntax at the OS prompt (notice double quotes):\\
+\begin{verbatim}
+infinitearithmetic "input=<file name>;digitsPerNode=<number>".
+\end{verbatim}
+
+Assumptions:
+\begin{itemize}
+\item The file is a small plain text file (say $< 10000$ bytes); no need to handle binary files.
+\item Only integer numbers as input (no decimals!). Output number without leading zeroes.
+\item Operators: $ + * $
+\item 
+      do not break an arithmetic expression into multiple lines as it will mess testing.
+% there may be a space included for clarity between a number and the operator.
+%      You can also use 1 space to separate operators and numbers,
+\end{itemize}
+
+
+Example of program call:
+\begin{verbatim}
+infinitearithmetic "input=xyz.txt;digitsPerNode=2"
+\end{verbatim}
+
+
+
+\section{Requirements}
+
+\begin{itemize}
+\item Correctness is the most important requirement: TEST
+ your program with many input files.
+ Your program should not crash or produce exceptions.
+
+\item Doubly linked lists are required. A program using
+arrays to store long numbers will receive a failing grade (below 50).
+However, arrays for parameters or other auxiliary variables are acceptable.
+
+\item Breaking a number into a list of nodes. Each node will store the number of digits specified in
+the parameters. Notice it is acceptable to "align" digits after reading the entire number so 
+that that the rightmost node (end) has all the digits.
+
+Example of numbers stored as a list of nodes of 2 digits:
+\begin{verbatim}
+963 stored as {9,63} or {96,3}
+123456 stored as {12,34,56}
+0 stored as {0}
+\end{verbatim}
+
+
+\item Doubly linked list features:
+
+Numbers must be read and inserted manipulating the list forward
+starting with the most significant digit (leftmost digit).
+Each node must be multiplied by some power of 10, depending on its
+position within the list. Assuming 2-digit nodes the powers
+would be 1,100,10000,..
+
+\item Arithmetic operators:
+
+Addition: Numbers must be added  starting on the least significant digit,
+keeping a carryover from node to node.
+
+Multiplication: numbers must be multiplied with the traditional method you learned
+in elementary school starting from the rightmost digit. 
+However, your multiplication
+algorithm must handle the number of digits per node specified,
+one of which may be the simplest case you already know: 1 digit per node.
+You must use linked lists to store partial results.
+
+\item input and output numbers.
+
+The input numbers must be stored on lists.
+The result of the arithmetic operation must be stored on a third list as well.
+Printing must be done traversing the list forward.
+After the addition is complete and the result is printed
+to the output file the program must deallocate
+(delete) the lists.
+Remove leading zeroes from the result (e.g. 1, instead of 00001; 0 instead of 00000).
+
+\item Memory allocation and deallocation.
+
+Your program must use "new" to allocated each node and must free memory (using the "delete" operator).
+at the end.
+
+
+\item Limits:
+Each node will store a fixed number of digits, specified with the "digits per node" parameter.
+You can assume 1-8 digits per node.
+
+You can assume input text lines can have up to 256 (2**8) characters,
+but that should not be a limit in the list.
+You should not assume a maximum number of lines for the input file 
+(e.g. a file may hav many blank lines).
+
+\item Advanced operators and functions (optional):
+Subtraction, allowing negative numbers as result, no credit.
+Division with remainder, harder and 10\% credit.
+Square root function $sqrt(number)$ including 20 decimals, hardest, 20\% extra credit.
+
+
+\end{itemize}
+
+
+% \bibliography{db}
+
+\end{document}
+
